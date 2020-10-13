@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  font-family: "Archivo Narrow", sans-serif;
+  margin: 0;
+}
+.container {
+}
+.card {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 98%;
+  height: 98%;
+  border-radius: 1px;
+  border: 10pt inset #979aaa;
+  background-color: black;
+}
+.card-content {
+  position: absolute;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  padding: 5% 5% 5% 5%;
+  box-sizing: border-box;
+  overflow: scroll;
+  
+  }
+#title{
+    width: 55em;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    animation: typing 3.5s steps(15, end), blink-caret .75s step-end infinite;
+    overflow: hidden;
+  color:white;
+  font-size: 50px;
+  font-family: "Press Start 2P";
+  
+}
+/* 打印效果 */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 55em; }
+}
+/* 光标闪啊闪 */
+@keyframes blink-caret {
+  from, to { box-shadow: 1px 0 0 0 transparent; }
+  50% { box-shadow: 1px 0 0 0; }
+}
+
+  
+}
+.Author {
+  top:30%;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  color:#9999ff
+}
+
+.text1{
+  font-weight: 1px;
+  font-family: "Arapey", cursive;
+  font-size: 20px;
+  line-height: normal;
+   text-align: center;
+  letter-spacing:normal; 
+  color:#ffffff;
+}
+.text2{
+  font-weight: 1px;
+  font-family: "Arapey", cursive;
+  font-size: 20px;
+   line-height: normal;
+   text-align: center;
+  letter-spacing:normal; 
+  color:#ffffff;
+}
+.text3{
+  font-weight: 1px;
+  font-family: "Arapey", cursive;
+  font-size: 20px;
+   line-height: normal;
+   text-align: center;
+  letter-spacing:normal; 
+  color:#ffffff;
+  
+}
+

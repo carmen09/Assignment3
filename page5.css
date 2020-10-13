@@ -1,0 +1,109 @@
+body {
+   
+  padding:0;
+  margin: 0;
+  
+}
+.container {
+}
+.card {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 98%;
+  height: 98%;
+  border-radius: 1px;
+  border: 10pt inset #993399;
+  background-color:linear-gradient（#0066ff, #33cc99);
+  height: 1000px;
+	background-color: red; 
+    background-image: linear-gradient(#e66465, #9198e5);
+
+}
+.card-content {
+  position: absolute;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  padding: 5% 5% 5% 5%;
+  box-sizing: border-box;
+  overflow: scroll;
+ 
+}
+
+#title {
+  font-weight: 200;
+  font-family: "charm", cursive;
+  font-size: 66px;
+  right:0%;
+  display: inline;
+   text-transform: uppercase;
+  color:#000033;
+  
+}
+#Author {
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  left:50%;
+  color:	#336699;
+}
+
+.text1{
+  font-weight: 1px;
+  font-family: "Arapey", cursive;
+  font-size: 30px;
+  line-height: normal;
+   text-align: left;
+  color:#6600cc;
+  
+}
+.text2{
+  font-weight: 1px;
+  font-family: "Arapey", cursive;
+  font-size: 30px;
+   line-height: normal;
+text-align: right;
+    text-align: left;
+  
+
+   color:#6699cc;
+
+}
+.text3{
+  font-weight: 1px;
+  font-family: "Arapey", cursive;
+  font-size: 30px;
+   line-height: normal;
+text-align: right;
+    text-align: left;
+  color:#99ffcc;
+  
+
+}
+.light3{
+  width: 550px;
+  height: 550px;
+  right: 0%;
+   bottom: -30%;
+   position: absolute;
+  background:radial-gradient(50% 50% at 50% 50%, #ffff66 0%, rgba(237, 233, 147, 0) 100%);
+}
+
+.light2{
+  width: 450px;
+  height: 450px;
+  left: 50%;
+  bottom: -10%;
+  position: absolute;
+  background:radial-gradient(50% 50% at 50% 50%, #e66465 0%, rgba(237, 233, 147, 0) 100%);
+}
+
+.light1{
+  width: 750px;
+  height: 750px;
+  left: 50%;
+  bottom: 0%;
+  position: absolute;
+  background:radial-gradient(50% 50% at 50% 50%, #6699cc 0%, rgba(237, 233, 147, 0) 100%);
+}

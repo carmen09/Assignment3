@@ -1,0 +1,136 @@
+body {
+  background-color:#ffebcd;
+  margin: 0;
+  
+}
+.container {
+}
+.card {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 98%;
+  height: 98%;
+  border-radius: 1px;
+  border: 10pt double white;
+  background-color:#ffebcd;
+}
+.card-content {
+  position: absolute;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  padding: 5% 5% 5% 5%;
+  box-sizing: border-box;
+  overflow: scroll;
+ 
+}
+
+#title {
+  font-weight: 200;
+  font-family: "charm", cursive;
+  font-size: 66px;
+  display: inline;
+   text-transform: uppercase;
+  color:#8b5f65;
+    text-align: center;
+}
+#Author {
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  left:50%;
+  color:#cd8c95
+}
+
+.text1{
+  font-weight: 1px;
+    text-align: center;
+  font-family: "Arapey", cursive;
+  font-size: 30px;
+  line-height: normal;
+  color:#cc3333;
+	width:500px;
+	height:400px;
+	background:pink;
+    border-radius: 10px;
+	position:relative;
+	animation:myfirst 5s;
+	-webkit-animation:myfirst 5s; /* Safari and Chrome */
+}
+
+@keyframes myfirst
+{
+	0%   {background:	#fb958b; left:50%; top:0px;}
+	25%  {background:#f7a583; left:200px; top:0px;}
+	50%  {background:#f7baa1; left:200px; top:200px;}
+	75%  {background:	#fb9fa4; left:0px; top:200px;}
+	100% {background:#ff9e99; left:50%; top:0px;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+		0%   {background:	#fb958b; left:0px; top:0px;}
+	25%  {background:#f7a583; left:200px; top:0px;}
+	50%  {background:#f7baa1; left:200px; top:200px;}
+	75%  {background:	#fb9fa4; left:0px; top:200px;}
+	100% {background:#ff9e99; left:0px; top:0px;}
+}
+.text2{
+  font-weight: 1px;
+    text-align: center;
+  font-family: "Arapey", cursive;
+  font-size: 30px;
+   line-height: normal;
+   color:#cc6633;
+  width:500px;
+	height:400px;
+	background:pink;
+    border-radius: 10px;
+	position:relative;
+	animation:myfirst 5s;
+}
+.text3{
+  font-weight: 1px;
+  font-family: "Arapey", cursive;
+  font-size: 30px;
+   line-height: normal;
+width:500px;
+	height:400px;
+	background:pink;
+    border-radius: 10px;
+	position:relative;
+	animation:myfirst 5s;
+   color:#eeb422;
+    text-align: center;
+  
+}
+
+#light1{
+  width: 150px;
+  height: 150px;
+  right: 20%;
+   bottom: 0px;
+   position: absolute;
+  background: radial-gradient(50% 50% at 50% 50%, #FB1DF2 0%, rgba(237, 233, 147, 0) 100%);
+}
+
+#light2{
+  width: 150px;
+  height: 150px;
+  right: 40%;
+  bottom: -50%;
+  
+   position: absolute;
+  background: radial-gradient(50% 50% at 50% 50%, #FB1DF2 0%, rgba(237, 233, 147, 0) 100%);
+}
+
+#light3{
+  width: 150px;
+  height: 150px;
+  right: 40%;
+top: 25%;
+  
+   position: absolute;
+  background: radial-gradient(50% 50% at 50% 50%, #FB1DF2 0%, rgba(237, 233, 147, 0) 100%);
+}

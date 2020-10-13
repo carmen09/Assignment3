@@ -1,0 +1,92 @@
+body {
+  background-color: #faebd7;
+  margin: 0;
+  
+}
+.container {
+}
+.card {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 98%;
+  height: 98%;
+  border-radius: 1px;
+  border: 10pt dashed #ffdfba;
+  background-color: 	#faf0e6;
+}
+.card-content {
+  position: absolute;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  padding: 5% 5% 5% 5%;
+  box-sizing: border-box;
+  overflow: scroll;
+ 
+}
+
+#title {
+  font-weight: 200;
+  font-family: "charm", cursive;
+  font-size: 66px;
+  right:0%;
+  display: inline;
+   text-transform: uppercase;
+  color:#000033;
+  
+}
+#Author {
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  left:50%;
+  color:	#336699;
+}
+
+.text1{
+  font-weight: 1px;
+  font-family: "Arapey", cursive;
+  font-size: 30px;
+  line-height: normal;
+   text-align: left;
+  color:#3366cc;
+  
+}
+.text2{
+  font-weight: 1px;
+  font-family: "Arapey", cursive;
+  font-size: 25px;
+   line-height: normal;
+   text-align: center;
+   color:#3399ff;
+}
+.text3{
+  font-weight: 1px;
+  font-family: "Arapey", cursive;
+  font-size: 20px;
+   line-height: normal;
+   text-align:right;
+   color:#33ccff;
+  
+}
+
+#light1{
+  width: 150px;
+  height: 150px;
+  right: 20%;
+   bottom: 0px;
+   position: absolute;
+  background: radial-gradient(50% 50% at 50% 50%, #FB1DF2 0%, rgba(237, 233, 147, 0) 100%);
+}
+
+#light2{
+  width: 150px;
+  height: 150px;
+  left: 40%;
+  top: 30%;
+  
+   position: absolute;
+  background: radial-gradient(50% 50% at 50% 50%, #FB1DF2 0%, rgba(237, 233, 147, 0) 100%);
+}
+
